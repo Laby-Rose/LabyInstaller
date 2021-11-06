@@ -25,7 +25,7 @@ def clearcmd():
 def bgm():
     while True:
         playsound(resource_path("music.mp3"), block=False)
-        time.sleep(81)
+        time.sleep(248)
 bgmm = threading.Thread(target=bgm)
 bgmm.start()
 clearcmd()
